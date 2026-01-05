@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alastorbot - Menú de Comandos</title>
+    <meta name="description" content="Lista oficial de comandos para Alastor Bot. Juegos, Roles, Economía y Admin.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <h1>Alastorbot</h1>
+    </header>
+
+    <nav class="site-nav">
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <ul id="navMenu">
+            <li><a href="#admin">Admin/Utilidad</a></li>
+            <li><a href="#juegos">Juegos y Azar</a></li>
+            <li><a href="#roles">Roles y Acción</a></li>
+            <li><a href="#social">Diversión/Social</a></li>
+            <li><a href="#multimedia">Multimedia</a></li>
+            <li><a href="#economia">Economía</a></li>
+        </ul>
+    </nav>
+
+    <main class="content-grid">
+        <section id="admin" class="category-section">
+            <h2>⚙️ Utilidad y Admin</h2>
+            <ul class="command-list">
+                <li>
+                    <h3>👨‍👩‍👧‍👦🏡💞 | !t</h3>
+                    <p>Solo Admins.</p>
+                </li>
+                <li>
+                    <h3>ab [opción]</h3>
+                    <p>Comandos admin: <code>b</code> (bienvenida), <code>adm</code> (modo admin), <code>ms</code>
+                        (server), <code>br</code> (ban).</p>
+                </li>
+                <li>
+                    <h3>aña [numero]</h3>
+                    <p>Añadir participante al grupo.</p>
+                </li>
+                <li>
+                    <h3>!re [tag]</h3>
+                    <p>Remover participante (o responder mensaje).</p>
+                </li>
+                <li>
+                    <h3>📊📈📉 | IO / LS</h3>
+                    <p>Muestra las estadísticas (Stats) y Perfil.</p>
+                </li>
+                <li>
+                    <h3>📝⚙️🪛 | As</h3>
+                    <p>Ajustes del bot.</p>
+                </li>
+                <li>
+                    <h3>❌🚫 📛 | Br</h3>
+                    <p>Borrar mensaje del bot.</p>
+                </li>
+                <li>
+                    <h3>🤖 👹 | !otro</h3>
+                    <p>Vuelvete un bot de Alastor (Solo en privado).</p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="juegos" class="category-section">
+            <h2>🎮 Juegos y Azar</h2>
+            <ul class="command-list">
+                <li>
+                    <h3>ppt</h3>
+                    <p>Piedra, Papel o Tijera.</p>
+                </li>
+                <li>
+                    <h3>cz [cant] [cara/cruz]</h3>
+                    <p>Cara o Cruz (Apuestas).</p>
+                </li>
+                <li>
+                    <h3>bj</h3>
+                    <p>BlackJack (21). Apostar, pedir, plantarse.</p>
+                </li>
+                <li>
+                    <h3>dado [1-6]</h3>
+                    <p>Lanza un dado e intenta ganar a la máquina.</p>
+                </li>
+                <li>
+                    <h3>pp [cantidad]</h3>
+                    <p>Pelea de Pollos (Apuestas).</p>
+                </li>
+                <li>
+                    <h3>🧊⛏️�️ | MS</h3>
+                    <p>Estado del servidor de Minecraft.</p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="roles" class="category-section">
+            <h2>🎭 Roles y Acción</h2>
+            <ul class="command-list">
+                <li>
+                    <h3>robar</h3>
+                    <p>(Rol Ladrón) Roba dinero a otro usuario responding.</p>
+                </li>
+                <li>
+                    <h3>arrestar</h3>
+                    <p>(Rol Policía) Arresta a un ladrón.</p>
+                </li>
+                <li>
+                    <h3>golpear</h3>
+                    <p>(Rol Policía) Golpea a un ladrón antes de arrestar.</p>
+                </li>
+                <li>
+                    <h3>genero: [hombre/mujer]</h3>
+                    <p>Define tu género en el perfil.</p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="social" class="category-section">
+            <h2>🎉 Diversión y Social</h2>
+            <ul class="command-list">
+                <li>
+                    <h3>🧟 🚿🛁 | rnu</h3>
+                    <p>Recomendar anime.</p>
+                </li>
+                <li>
+                    <h3>🎮 👾🎧 | Jugar</h3>
+                    <p>Muestra el menú de juegos.</p>
+                </li>
+                <li>
+                    <h3>👰‍♀️❤️‍🔥🤵‍♂ | Cr / Casar</h3>
+                    <p>Comando de matrimonio (@persona).</p>
+                </li>
+                <li>
+                    <h3>🚪🫠 😦 | Divorcio</h3>
+                    <p>Divorciarse (Costo: 1 punto y 20 mensajes).</p>
+                </li>
+                <li>
+                    <h3>🎁 🎉 | donar</h3>
+                    <p>Apoya al proyecto.</p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="multimedia" class="category-section">
+            <h2>📸 Multimedia</h2>
+            <ul class="command-list">
+                <li>
+                    <h3>🃏🎞️🤳 | St</h3>
+                    <p>Crea sticker de la imagen respondida.</p>
+                </li>
+                <li>
+                    <h3>🔈🔉🔊 | Tv</h3>
+                    <p>Crea un audio.</p>
+                </li>
+                <li>
+                    <h3>🎸🎼🎵 | m</h3>
+                    <p>Busca una canción (nombre).</p>
+                </li>
+                <li>
+                    <h3>📸 🕺🕴️ | Sf</h3>
+                    <p>Foto o video de imagen temporal.</p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="economia" class="category-section">
+            <h2>💸 Economía</h2>
+            <ul class="command-list">
+                <li>
+                    <h3>🏪🏬💸 | Tienda</h3>
+                    <p>Accede a la tienda de objetos.</p>
+                </li>
+                <li>
+                    <h3>🛒🛍️🏷️ | Comprar</h3>
+                    <p>Comprar [nombre del articulo].</p>
+                </li>
+                <li>
+                    <h3>🏦💰💱 | Banco</h3>
+                    <p>Banco [opcion] [monto].</p>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2024 Alastorbot.site - Creado por Alastor.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
